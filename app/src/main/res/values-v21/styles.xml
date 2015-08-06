@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:typeface">serif</item>
+        <item name="colorControlActivated">@color/teal</item>
+        <item name="colorControlHighlight">@color/teal</item>
+        <!-- Only supported by API Level > 21 -->
+        <item name="android:statusBarColor">@color/teal</item>
+        <!-- Default status bar color -->
+        <item name="colorPrimaryDark">@color/teal</item>
+    </style>
+</resources>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.fbu.photosphere.sphere.TouchCatcherFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    
+  <ScrollView
+      android:id="@+id/main_layout"
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:background="@color/white"
+      android:clickable="true"
+      android:fillViewport="true"
+      android:focusable="true"
+      android:focusableInTouchMode="true"
+      tools:context=".SignUpActivity"
+      >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        >
+
+      <LinearLayout
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:background="@color/white"
+          android:orientation="vertical"
+          android:padding="@dimen/wide_margin"
+          >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/user_prof"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/element_separation"
+            android:layout_marginTop="@dimen/vertical_margin"
+            android:src="@mipmap/anonymous_icon"
+            app:border_color="@color/light_grey"
+            app:border_width="2dp"
+            />
+
+        <EditText
+            android:id="@+id/fullname_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/full_name"
+            android:inputType="textCapWords"
+            android:maxLines="1"
+            android:singleLine="true"
+            />
+
+        <EditText
+            android:id="@+id/username_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/username"
+            android:inputType="textPersonName"
+            android:maxLines="1"
+            android:singleLine="true"
+            />
+
+        <EditText
+            android:id="@+id/tagline_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/tag_line"
+            android:inputType="textShortMessage"
+            android:maxLines="1"
+            android:singleLine="false"
+            />
+
+        <EditText
+            android:id="@+id/email_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:singleLine="true"
+            />
+
+        <EditText
+            android:id="@+id/date_picker_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:imeOptions="actionNext"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="@string/date_of_birth"
+            android:textColor="@color/medium_grey"
+            />
+
+        <EditText
+            android:id="@+id/password_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:singleLine="true"
+            />
+
+        <EditText
+            android:id="@+id/password_again_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/retype_password"
+            android:imeActionId="@+id/edittext_action_signup"
+            android:imeActionLabel="Sign Up"
+            android:imeOptions="actionUnspecified"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:singleLine="true"
+            />
+
+        <Button
+            android:id="@+id/sign_up_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/element_separation"
+            android:background="@color/teal"
+            android:paddingLeft="@dimen/button_padding"
+            android:paddingRight="@dimen/button_padding"
+            android:stateListAnimator="@null"
+            android:text="@string/sign_up"
+            android:textColor="@color/white"
+            android:textColorHint="@color/medium_grey"
+            />
+
+      </LinearLayout>
+
+      <FrameLayout
+          android:layout_width="fill_parent"
+          android:layout_height="0dp"
+          android:layout_weight="0.1"
+          android:background="@color/white">
+
+        <TextView
+            android:id="@+id/return_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="@dimen/vertical_margin"
+            android:clickable="true"
+            android:text="@string/account_already"
+            android:textColor="@color/medium_grey"
+            />
+
+      </FrameLayout>
+
+    </LinearLayout>
+
+  </ScrollView>
+
+</com.facebook.fbu.photosphere.sphere.TouchCatcherFrameLayout>

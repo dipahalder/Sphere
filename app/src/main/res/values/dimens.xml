@@ -1,0 +1,14 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="horizontal_margin">16dp</dimen>
+    <dimen name="vertical_margin">16dp</dimen>
+    <dimen name="button_padding">32dp</dimen>
+    <dimen name="wide_margin">50dp</dimen>
+    <dimen name="wide_top_margin">100dp</dimen>
+    <dimen name="indicator_radius">5dp</dimen>
+    <dimen name="element_separation">20dp</dimen>
+    <dimen name="map_inset_margin">100dp</dimen>
+    <dimen name="pin_icon_size">80dp</dimen>
+    <dimen name="corner_round_factor">14dp</dimen>
+    <dimen name="border_thickness">5dp</dimen>
+</resources>

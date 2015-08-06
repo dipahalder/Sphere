@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="teal">#00AFBC</color>
+    <color name="light_teal">#00BBD6</color>
+    <color name="dark_teal">#00575e</color>
+    <color name="dark_grey">#191919</color>
+    <color name="light_grey">#DDDDDD</color>
+    <color name="light_medium_grey">#C4C6C6</color>
+    <color name="medium_grey">#848484</color>
+    <color name="black">#000000</color>
+    <color name="facebook_blue">#3b5998</color>
+</resources>

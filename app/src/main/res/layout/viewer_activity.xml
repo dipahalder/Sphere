@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/viewer_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <com.facebook.fbu.photosphere.spherelib.SphereView
+        android:id="@+id/photosphere_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <ImageView
+        android:id="@+id/modes"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="left|bottom"
+        android:padding="@dimen/element_separation"
+        android:src="@drawable/touch_mode"
+        />
+
+</FrameLayout>

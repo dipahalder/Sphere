@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relative_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:paddingLeft="@dimen/wide_margin"
+    android:paddingRight="@dimen/wide_margin"
+    android:paddingTop="@dimen/wide_top_margin"
+    android:background="@color/teal"
+    >
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_above="@+id/caption"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/nux_slide_3"
+        android:padding="20dp"
+        android:scaleType="fitCenter"
+        />
+
+    <TextView
+        android:id="@+id/caption"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginTop="25dp"
+        android:gravity="center|top"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:text="@string/nux_2"
+        />
+
+</FrameLayout>

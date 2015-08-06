@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dist_to_trigger">10dp</dimen>
+    <dimen name="stroke_width">2dp</dimen>
+    <dimen name="outer_circle_radius">24dp</dimen>
+    <dimen name="inner_circle_radius">14dp</dimen>
+    <dimen name="rotate_icon_size">120dp</dimen>
+    <dimen name="rotate_icon_margin">30dp</dimen>
+
+</resources>

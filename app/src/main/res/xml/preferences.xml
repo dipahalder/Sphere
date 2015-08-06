@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory>
+        <!-- null for formatting purposes -->
+    </PreferenceCategory>
+
+    <PreferenceCategory>
+
+        <Preference
+            android:icon="@drawable/ic_password_reset"
+            android:key="reset_password_preference"
+            android:title="@string/password_settings"
+            />
+
+        <Preference
+            android:icon="@drawable/ic_educate"
+            android:key="educate_preference"
+            android:title="@string/educate_settings"
+            />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory>
+
+        <Preference
+            android:icon="@drawable/ic_logout"
+            android:key="log_out_preference"
+            android:title="@string/logout_preference"
+            />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

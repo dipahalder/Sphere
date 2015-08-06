@@ -1,0 +1,121 @@
+<resources>
+
+  <string name="app_name">Sphere</string>
+  <string name="sphere">sphere</string>
+  <string name="hello_world">Hello world!</string>
+  <string name="action_settings">Settings</string>
+  <string name="title_activity_tab">TabActivity</string>
+
+  <string name="username">Username</string>
+  <string name="password">Password</string>
+  <string name="full_name">Full Name</string>
+  <string name="email">Email</string>
+  <string name="retype_password">Retype your password</string>
+  <string name="tag_line">Tag Line</string>
+
+  <string name="login">Login</string>
+  <string name="facebook_login">Log in with Facebook</string>
+  <string name="date_of_birth">Date of Birth</string>
+  <string name="sign_up">Sign Up</string>
+
+  <string name="cancel">Cancel</string>
+  <string name="forgotten_password">Forgot your password?</string>
+  <string name="new_user_link">New to Sphere? Sign Up</string>
+
+  <string name="skip">Skip</string>
+  <string name="caption">Caption</string>
+  <string name="set_location">Set Location</string>
+
+  <string name="reset_password">Reset Password</string>
+
+  <!-- App IDs -->
+  <string name="parse_app_id">VD5972dg8fY8sBS915VAFOGoT6cGix7AULyj90li</string>
+  <string name="parse_client_key">5TuB7ZdlvItqXO1Lk37WuDZyXI2V359qJMp0RF07</string>
+  <string name="google_api_key">AIzaSyDjCo0xlfmwcC7Zvbrpvt04WmPfZxdNqmY</string>
+
+  <!-- Strings related to login -->
+  <string name="title_activity_login">Log in</string>
+  <string name="title_activity_signup">Sign up</string>
+  <string name="title_activity_reset_password">Reset Password</string>
+  <string name="prompt_username">Username</string>
+  <string name="prompt_password">Password</string>
+  <string name="error_join">", and "</string>
+  <string name="error_end">.</string>
+  <string name="progress_login">Logging you in&#8230;</string>
+  <string name="progress_signup">Signing you up&#8230;</string>
+  <string name="signup">Sign up</string>
+
+  <!-- Strings related to signup -->
+  <string name="prompt_password_again">Password Again</string>
+  <string name="error_intro">"Please "</string>
+  <string name="error_blank_username">enter a username</string>
+  <string name="error_blank_password">enter a password</string>
+  <string name="error_blank_name">enter your name</string>
+  <string name="error_blank_email">enter your email address</string>
+  <string name="error_mismatched_passwords">enter the same password twice</string>
+  <string name="signup_failed">Sorry, your sign up has not successfully completed.</string>
+
+  <!-- Strings related to user info -->
+  <string name="prompt_fullname">Please enter your full name</string>
+  <string name="prompt_tag_line">Enter a tag line!</string>
+  <string name="prompt_email_address">Enter your email address!</string>
+  <string name="date_picker_title">Date of birth:</string>
+  <string name="account_already">Already have an account?</string>
+
+  <!-- Strings related to photo upload -->
+  <string name="upload">Upload</string>
+  <string name="location">Location</string>
+  <string name="no_photo">You must select either a panorama or a photosphere to continue.</string>
+  <string name="uploading">Uploading...</string>
+  <string name="no_loc">Please connect location services to continue upload.</string>
+  <string name="upload_error">Sphere could not be uploaded at this time.</string>
+  <string name="select_image_type">Select image type:</string>
+  <string name="panorama">Panorama</string>
+  <string name="photosphere">Photosphere</string>
+
+  <!-- NUX Captions -->
+  <string name="nux_intro">Capture, view, and share the world in immersive 360º</string>
+  <string name="nux_2">Tilt and rotate your device to explore a photosphere</string>
+  <string name="nux_3">Discover photospheres people have pinned around the world</string>
+  <string name="nux_4">Create and share your own</string>
+  <string name="continue_text">Continue</string>
+  <string name="title_activity_viewer">View Mode</string>
+
+
+  <!-- Viewer Related -->
+  <string name="photosphere_loading_error">Unable to load photosphere.</string>
+
+
+  <!-- Detail view -->
+  <string name="error_loading">We\'re sorry. Error loading this sphere.</string>
+
+  <!-- Strings related to settings -->
+  <string name="settings">Settings</string>
+  <string name="settings_caps">SETTINGS</string>
+  <string name="edit_profile">EDIT PROFILE</string>
+  <string name="feedback">feedback</string>
+  <string name="updating_profile">Updating Profile...</string>
+  <string name="feedback_progress">Sending feedback...</string>
+  <string name="update">Update</string>
+  <string name="improve_message">What would you like us to improve?</string>
+  <string name="fix_it">Fix It!</string>
+
+  <!-- Strings related to preferences -->
+  <string name="profile_settings">Edit Profile Settings</string>
+  <string name="password_settings">Reset Password</string>
+  <string name="educate_settings">Learn how to use Sphere</string>
+  <string name="report_bug">Report a Bug</string>
+  <string name="logout_preference">Log Out</string>
+
+  <!-- Capture Related -->
+  <string name="discard_title">Discard Photosphere</string>
+  <string name="discard_message">Are you sure you want to discard your progress?</string>
+
+  <string name="camera_usage_directions_top">Center the camera over a blue dot and hover until a
+    frame of the scene appears</string>
+  <string name="camera_usage_directions_bottom">Rotate your device, following the dots to capture
+  your photosphere</string>
+
+
+
+</resources>

@@ -1,0 +1,2 @@
+include ':app', ':spherelib', ':sampleapp'
+project(':sampleapp').projectDir = new File('SphereViewer/app')

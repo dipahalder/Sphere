@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_grey"
+    >
+
+    <FrameLayout
+        android:id="@+id/camera_frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <FrameLayout
+      android:id="@+id/directions"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="@color/white"
+      >
+
+      <include
+        android:id="@+id/camera_directions_layout"
+        layout="@layout/camera_directions"
+        />
+
+      </FrameLayout>
+
+    <ViewSwitcher
+        android:id="@+id/lower_panel_switcher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        >
+
+        <include
+            android:id="@+id/tab_options"
+            layout="@layout/camera_tab_lower_panel"
+            />
+
+        <include
+            android:id="@+id/camera_options"
+            layout="@layout/camera_options_lower_panel"
+            />
+
+    </ViewSwitcher>
+
+</FrameLayout>
